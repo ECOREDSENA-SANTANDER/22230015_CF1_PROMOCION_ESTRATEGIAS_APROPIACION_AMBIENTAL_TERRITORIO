@@ -3,56 +3,51 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    top: 2%
+    left: -80%
+    /*width: 100%*/
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
     top: 30%
     right: 10%
     width: 20%
-
-
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
   width: 58.33333333% !important
 .banner-principal__img 
-  padding-bottom: 0 !important;
-.banner-principal__row .banner-principal__img 
-    width: 33%;
+  padding-bottom: 0 !important
+
     
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: $color-sistema-texto !important  
-
-.boton *, .boton--sm *,
-.barra-avance__boton--regresar span
-  color: $white !important
 .banner-interno__titulo h1, .banner-interno__titulo h2, 
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $color-sistema-texto !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
 figcaption 
-    font-weight: normal !important
+  font-weight: normal !important
 
-.banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+.titulo-principal__numero span
+  color: $color-sistema-texto !important 
+.banner-interno__fondo
+  background-image: url(../assets/curso/temas/bg/banner.png) !important
+  background-size: cover
+  background-repeat: no-repeat
 
 
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
 .p-full-width
-  padding: 3rem 3.5rem!important;
+  padding: 3rem 3.5rem!important
 .bg-full-width
   background-size: cover
   background-repeat: no-repeat
@@ -60,7 +55,9 @@ figcaption
   margin-inline: -3.3rem
 .bg-fondo
   &-1
-    //background-image: url(../assets/curso/bg/3.svg)
+    background-image: url(../assets/curso/temas/bg/bg-t2.png)
+    background-size: cover
+    background-repeat: no-repeat
 .bg-color
   &-1
     background-color: $color-primario
@@ -80,6 +77,9 @@ figcaption
     background-color: #FCE299 !important
   &-9
     background-color: #FEF1CC !important
+  &-10
+    background-color: $color-acento-contenido
+
 
 .subt
   display: flex
@@ -99,16 +99,107 @@ figcaption
     width: 100%
     height: 65%
     z-index: 0
+.subt-2
+  position: relative
+  width: fit-content
+  h4
+    z-index: 1
+    padding: 0 1rem 0.75rem 1rem
+  &::before
+    content: ''
+    position: absolute
+    background-color: #98C113
+    border-radius: 100px
+    width: 100%
+    height: 6px
+    bottom: 0
+    z-index: 0
 
 
-
-
-
+.w-85x
+  width: 85px
+.fa-lista
+  li
+    display: flex !important
+    align-items: flex-start
+  li:before
+    position: relative
+    margin-right: 7px
+    font-size: 1.4rem 
+.t2-tmin table
+  min-width: 550px
+.tabla-a.color-acento-contenido
+  thead
+    background-color: #CCD9DC
+.tarjeta--boton.bg-color-4:hover
+  cursor: inherit
+  background-color: #E5FAFE
+.tarjeta--boton.bg-color-3:hover
+  cursor: inherit
+  background-color: #FFD5B7 !important
+.tarjeta--boton.bg-color-9:hover
+  cursor: inherit
+  background-color: #FCE299 !important
+.acordion
+  &__activo
+    background-color: #E5FAFE
+  &__accion__btn--a
+    background-color: $color-acento-botones
+  &__accion__btn--b
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+.tabs-a
+  &__tab
+    background-color: #CCD9DC
+    &__text
+      color: $color-sistema-texto
+.tarjeta-audio__texto
+  color: $color-sistema-texto !important
+  font-weight: 400 !important
+  font-style: normal !important
+.slyder-f__btn i
+  color: $color-acento-botones
+.tabs-b
+  &__tab
+    background-color: #FFD5B7
+    .tabs-b__tab__icon
+      background-color: $color-acento-botones
+      width: 65px
+      height: 65px
+      padding: 7px
+      border-radius: 100%
+      img
+        width: 100%
+        height: 100%
+        object-fit: contain
+    &--active
+      background-color: #E5FAFE
+      .tabs-b__tab__icon 
+        background-color: #663C1E    
+        img
+          filter: sepia(1)  
+    &__title
+      font-size: 1em
+.tarjeta-avatar-b
+  align-items: center
+  .tarjeta 
+    min-height: 98px
+    display: flex
+    align-items: center
 
 
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
+@media screen and (min-width: $bp-min-xl)
+  .col-lg-d5
+    flex: 0 0 auto !important
+    width: 20% !important
+  .tabs-a  
+    .col-xl-3
+      width: 30%
+    .col-xl-9
+      width: 70%
 
 //// DESKTOP SMALL 1400--------------------------------------
 @media screen and (max-width: $bp-min-xxl)
@@ -136,6 +227,8 @@ figcaption
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
+  .subt::before
+    height: 90%
 
   
  

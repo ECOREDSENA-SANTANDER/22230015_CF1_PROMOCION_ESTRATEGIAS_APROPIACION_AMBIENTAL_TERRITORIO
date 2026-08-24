@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Territorio, ecosistemas y planificación sociocultural',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> evaluar la comprensión de los conceptos fundamentales relacionados con la ecología, los ecosistemas, las características biofísicas del territorio, la biodiversidad, la gestión del riesgo, los procesos históricos y socioculturales, la organización social, la gobernanza territorial y los instrumentos de planificación, con el fin de fortalecer las capacidades de los aprendices para realizar diagnósticos territoriales integrales desde una perspectiva ambiental, social y participativa.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,405 +30,647 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Qué estudia la ecología?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'La producción industrial de recursos naturales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+              texto: 'Las relaciones entre los seres vivos y su ambiente.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'La organización política de los territorios.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'La construcción de infraestructura vial.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál de las siguientes es una relación ecológica interespecífica?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Territorialidad.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Cooperación.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Mutualismo.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Organización social.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Cuál es un componente abiótico de un ecosistema?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Fauna.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Flora.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Microorganismos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
+              texto: 'Suelo.',
               esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            'La biogeografía estudia:',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La distribución de los seres vivos en la Tierra.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Las normas ambientales de un territorio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Los procesos de urbanización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La organización política de los municipios.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+        },
+        {
+          id: 5,
+          texto:
+            'El enfoque socioecosistémico reconoce que:',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Los ecosistemas funcionan sin influencia humana.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Sociedad y naturaleza interactúan permanentemente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Solo los factores naturales determinan el territorio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Las actividades humanas no modifican los ecosistemas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Cuál de las siguientes regiones biogeográficas de Colombia se caracteriza por su alta pluviosidad?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Caribe.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Andina.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Pacífica.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Orinoquía.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Cuál de los siguientes ecosistemas cumple una función clave en la regulación hídrica?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Desierto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Páramo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Zona urbana.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Área industrial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Cuál de los siguientes elementos corresponde a una característica biofísica del territorio?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Costumbres culturales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Organización social.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Clima.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Normatividad ambiental.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+        },
+        {
+          id: 9,
+          texto:
+            'La biodiversidad de ecosistemas hace referencia a:',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La variedad genética de una especie.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La cantidad de individuos de una población.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Los diferentes ecosistemas presentes en un territorio.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La clasificación de los suelos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+        },
+        {
+          id: 10,
+          texto:
+            'Los bienes ecosistémicos son:',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Beneficios culturales generados por las comunidades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Productos obtenidos directamente de los ecosistemas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Normas de conservación ambiental.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Herramientas de planificación territorial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+        },
+        {
+          id: 11,
+          texto:
+            '¿Cuál de los siguientes corresponde a un riesgo antrópico?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Inundación natural.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Sismo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Incendio provocado por actividades humanas.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Erupción volcánica.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'La vulnerabilidad territorial corresponde a:',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La capacidad de recuperación de una comunidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El potencial de daño de un fenómeno.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El grado de susceptibilidad frente a una amenaza.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La cantidad de recursos naturales disponibles.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+        },
+        {
+          id: 13,
+          texto:
+            '¿Qué son los procesos históricos de poblamiento?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'La distribución de especies en un ecosistema.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'El establecimiento y organización de comunidades en un territorio.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'La creación de leyes ambientales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La clasificación de los recursos naturales.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'Los saberes tradicionales son conocimientos que:',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Solo se encuentran en documentos oficiales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Se transmiten de generación en generación.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Son elaborados exclusivamente por instituciones académicas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Se aplican únicamente en zonas urbanas.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál de las siguientes expresiones corresponde a una práctica cultural relacionada con el territorio?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Cartografía digital.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Zonificación ambiental.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Festividades tradicionales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Gestión del riesgo.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Cuál es la función principal del Poder Legislativo?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Administrar justicia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Ejecutar políticas públicas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Coordinar proyectos ambientales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Elaborar y aprobar leyes.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+        },
+        {
+          id: 17,
+          texto:
+            'Las Juntas de Acción Comunal son ejemplos de:',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Organizaciones internacionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Organizaciones sociales y comunitarias.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Entidades judiciales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Empresas privadas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+        },
+        {
+          id: 18,
+          texto:
+            'La cartografía social se caracteriza por:',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ser elaborada exclusivamente por expertos en SIG.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Representar información económica nacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Limitarse a mapas digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Construirse participativamente con las comunidades.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué instrumento orienta el desarrollo físico y la organización del territorio municipal?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'PGIRS.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'POMCA.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Plan de Manejo Ambiental.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'POT.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál es el propósito principal de los planes de vida comunitarios?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Orientar el desarrollo integral de las comunidades desde su propia visión.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Incrementar la explotación de recursos naturales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Regular el transporte regional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Administrar el sistema judicial local.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado: 'Ha superado la actividad y demuestra sólidos conocimientos sobre los fundamentos del territorio, ecosistemas y planificación sociocultural.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
     parrafo: {
       tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
