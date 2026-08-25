@@ -121,6 +121,11 @@ figcaption
 
 .w-85x
   width: 85px
+.w-50x
+  width: 50px
+.text-dark
+  h4, p
+    color: $color-sistema-texto !important
 .fa-lista
   li
     display: flex !important
@@ -134,6 +139,12 @@ figcaption
 .tabla-a.color-acento-contenido
   thead
     background-color: #CCD9DC
+.tabla-a.color-acento-contenido.t2-dis
+  thead
+    background-color: $color-acento-contenido
+  tbody
+    tr:nth-child(2n+1)
+      background-color: #FFF4ED
 .tarjeta--boton.bg-color-4:hover
   cursor: inherit
   background-color: #E5FAFE
@@ -223,6 +234,8 @@ figcaption
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
+  .subt::before
+    height: 90%
 
   
 
