@@ -1119,7 +1119,7 @@
       .col-lg-7(data-aos="fade-left")
         p La amenaza es un fenómeno, actividad o condición con potencial de causar daños a las personas, los ecosistemas, la infraestructura o las actividades económicas de un territorio.
         p Las amenazas pueden tener origen natural o antrópico y su nivel de peligrosidad depende de factores como la intensidad, frecuencia, duración y área de influencia.
-        p.mb-0 Una amenaza no siempre genera un desastre; para que ello ocurra deben existir elementos expuestos y condiciones de vulnerabilidad.s
+        p.mb-0 Una amenaza no siempre genera un desastre; para que ello ocurra deben existir elementos expuestos y condiciones de vulnerabilidad.
     
     .mb-4(data-aos='fade-down')
       .titulo-sexto.color-acento-contenido.mb-3
@@ -1298,29 +1298,29 @@
               th Medida preventiva
           tbody
             tr
-              td Inundación
-              td Viviendas cercanas al río
-              td Alta
-              td Pérdida de bienes y afectación a la población
-              td Sistemas de alerta temprana y reubicación de viviendas
+              td Inundación.
+              td Viviendas cercanas al río.
+              td Alta.
+              td Pérdida de bienes y afectación a la población.
+              td Sistemas de alerta temprana y reubicación de viviendas.
             tr
-              td Deslizamiento
-              td Vías rurales
-              td Media
-              td Interrupción de la movilidad
-              td Estabilización de taludes y reforestación
+              td Deslizamiento.
+              td Vías rurales.
+              td Media.
+              td Interrupción de la movilidad.
+              td Estabilización de taludes y reforestación.
             tr
-              td Sequía
-              td Cultivos agrícolas
-              td Alta
-              td Disminución de la producción
-              td Uso eficiente del agua y sistemas de almacenamiento
+              td Sequía.
+              td Cultivos agrícolas.
+              td Alta.
+              td Disminución de la producción.
+              td Uso eficiente del agua y sistemas de almacenamiento.
             tr
-              td Incendio forestal
-              td Cobertura vegetal
-              td Media
-              td Pérdida de biodiversidad
-              td Vigilancia, educación ambiental y manejo preventivo
+              td Incendio forestal.
+              td Cobertura vegetal.
+              td Media.
+              td Pérdida de biodiversidad.
+              td Vigilancia, educación ambiental y manejo preventivo.
 
     p Como complemento al contenido de este tema, se invita a explorar el siguiente pódcast, en el que se explican de manera práctica los conceptos de riesgo, amenaza, vulnerabilidad y resiliencia, así como su importancia para la gestión del territorio, la prevención de desastres y la construcción de comunidades más preparadas y sostenibles. Este recurso permitirá fortalecer la comprensión de los contenidos desarrollados y su aplicación en diferentes contextos territoriales.
 

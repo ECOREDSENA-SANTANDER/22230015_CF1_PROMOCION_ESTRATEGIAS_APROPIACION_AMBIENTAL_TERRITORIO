@@ -275,7 +275,8 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.2 Zonificación y representaciones territoriales
 
-    p.mb-4 La zonificación territorial consiste en la organización y división del territorio en áreas con características específicas para orientar su uso, manejo y conservación.
+    p.mb-2 La zonificación territorial consiste en la organización y división del territorio en áreas con características específicas para orientar su uso, manejo y conservación.
+    p.mb-4 Esta herramienta facilita la planificación territorial al identificar zonas con diferentes potencialidades, restricciones y necesidades de manejo
 
     .row.justify-content-center
       .col-lg-3.d-none.d-lg-block(data-aos="fade-right")

@@ -29,8 +29,7 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Qué estudia la ecología?',
+          texto: '¿Qué estudia la ecología?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
@@ -55,14 +54,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 2,
-          texto:
-            '¿Cuál de las siguientes es una relación ecológica interespecífica?',
+          texto: '¿Cuál de las siguientes es una relación ecológica interespecífica?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
@@ -87,14 +86,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 3,
-          texto:
-            '¿Cuál es un componente abiótico de un ecosistema?',
+          texto: '¿Cuál es un componente abiótico de un ecosistema?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
@@ -119,14 +118,14 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 4,
-          texto:
-            'La biogeografía estudia:',
+          texto: 'La biogeografía estudia:',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
@@ -151,14 +150,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 5,
-          texto:
-            'El enfoque socioecosistémico reconoce que:',
+          texto: 'El enfoque socioecosistémico reconoce que:',
           imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
@@ -183,9 +182,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 6,
@@ -215,9 +215,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 7,
@@ -247,9 +248,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 8,
@@ -279,14 +281,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 9,
-          texto:
-            'La biodiversidad de ecosistemas hace referencia a:',
+          texto: 'La biodiversidad de ecosistemas hace referencia a:',
           imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
@@ -311,14 +313,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 10,
-          texto:
-            'Los bienes ecosistémicos son:',
+          texto: 'Los bienes ecosistémicos son:',
           imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
@@ -343,14 +345,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 11,
-          texto:
-            '¿Cuál de los siguientes corresponde a un riesgo antrópico?',
+          texto: '¿Cuál de los siguientes corresponde a un riesgo antrópico?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
@@ -375,14 +377,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 12,
-          texto:
-            'La vulnerabilidad territorial corresponde a:',
+          texto: 'La vulnerabilidad territorial corresponde a:',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
@@ -407,14 +409,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 13,
-          texto:
-            '¿Qué son los procesos históricos de poblamiento?',
+          texto: '¿Qué son los procesos históricos de poblamiento?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
@@ -439,14 +441,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 14,
-          texto:
-            'Los saberes tradicionales son conocimientos que:',
+          texto: 'Los saberes tradicionales son conocimientos que:',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
@@ -471,9 +473,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 15,
@@ -503,14 +506,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 16,
-          texto:
-            '¿Cuál es la función principal del Poder Legislativo?',
+          texto: '¿Cuál es la función principal del Poder Legislativo?',
           imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
@@ -535,14 +538,14 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 17,
-          texto:
-            'Las Juntas de Acción Comunal son ejemplos de:',
+          texto: 'Las Juntas de Acción Comunal son ejemplos de:',
           imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
@@ -567,14 +570,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 18,
-          texto:
-            'La cartografía social se caracteriza por:',
+          texto: 'La cartografía social se caracteriza por:',
           imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
@@ -599,9 +602,10 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 19,
@@ -631,14 +635,14 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
         {
           id: 20,
-          texto:
-            '¿Cuál es el propósito principal de los planes de vida comunitarios?',
+          texto: '¿Cuál es el propósito principal de los planes de vida comunitarios?',
           imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
@@ -663,12 +667,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos del territorio, ecosistemas y planificación sociocultural.',
         },
       ],
-      mensaje_final_aprobado: 'Ha superado la actividad y demuestra sólidos conocimientos sobre los fundamentos del territorio, ecosistemas y planificación sociocultural.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre los fundamentos del territorio, ecosistemas y planificación sociocultural.',
       mensaje_final_reprobado:
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },

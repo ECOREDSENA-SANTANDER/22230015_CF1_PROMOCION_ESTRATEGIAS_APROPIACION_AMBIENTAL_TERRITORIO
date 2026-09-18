@@ -270,17 +270,14 @@ export default {
     {
       referencia:
         'Cuaical Aguilar, F. L., Gil Gómez, J. M. (2022). Lo Campesino, el Territorio y la Identidad: Análisis y Reconfiguraciones Desde el Diálogo de Saberes. Universidad de Antioquia.',
-      link: 'https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/4bd6f058-394d-491e-92f0-3bf8c3ed594e/content',
     },
     {
       referencia:
         'Ecología Digital. (s. f.). Fundamentos Ecológicos: Bases para entender los Sistemas Naturales.',
-      link: 'https://ecologiadigital.bio/que-son-los-fundamentos-ecologicos/',
     },
     {
       referencia:
         'Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. (2019). Biodiversidad 2019: Estado y tendencias de la biodiversidad continental de Colombia.',
-      link: 'https://reporte.humboldt.org.co/biodiversidad/2019/',
     },
     {
       referencia:
@@ -295,7 +292,6 @@ export default {
     {
       referencia:
         'Pérez Preciado, A. (s. f.). Instrumentos de planeación territorial en Colombia. Sociedad Geográfica de Colombia.',
-      link: 'https://www.sogeocol.edu.co/conferencias/3_5_Instrumentos_de_planeacion.pdf',
     },
     {
       referencia:
@@ -350,7 +346,7 @@ export default {
         },
         {
           nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -359,13 +355,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: ' ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
